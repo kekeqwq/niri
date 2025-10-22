@@ -1,0 +1,36 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 0,
+  "spacing": 0,
+  "margin-top": 12,
+  "margin-bottom": 5,
+  "margin-left": 200,
+  "margin-right": 200,
+  "modules-left": ["niri/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [ "tray","backlight", "pulseaudio", "battery"],
+  "pulseaudio": {
+    "format": "{volume}%"
+  },
+  "backlight": {
+    "format": "{percent}%",
+  },
+  "niri/workspaces": {
+    "format": "{index}"
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "interval": 1,
+    "tooltip-format": "{:%A %d %B %Y}"
+  },
+  "tray": {
+    "spacing": 12
+  },
+  "battery": {
+    "format": "{capacity}%",
+    "format-charging": "{capacity}% ",
+    "interval": 1,
+    "on-click": "/home/keke/.config/wofi/power.sh"
+  }
+}
