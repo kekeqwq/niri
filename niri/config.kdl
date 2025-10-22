@@ -223,7 +223,7 @@ layer-rule {
         match namespace="waybar"
         match namespace="wofi"
         match at-startup=true
-        opacity 0.6
+        opacity 0.8
         shadow {
                 on
                 softness 10
