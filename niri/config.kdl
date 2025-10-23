@@ -124,7 +124,7 @@ output "DP-1" {
 }
 
 layout {
-        gaps 9
+        gaps 14
         center-focused-column "never"
         always-center-single-column
         default-column-display "tabbed"
@@ -150,7 +150,13 @@ layout {
                 // active-gradient from="#80c8ff" to="#bbddff" angle=45
                 // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
         }
-
+        shadow {
+                on
+                softness 10
+                spread 10
+                offset x=0 y=5
+                // color "#0007"
+        }
         tab-indicator {
                 // off
                 hide-when-single-tab

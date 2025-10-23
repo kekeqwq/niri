@@ -11,16 +11,16 @@
   "modules-center": ["clock"],
   "modules-right": [ "tray","backlight", "pulseaudio", "battery"],
   "pulseaudio": {
-    "format": "{volume}%"
+    "format": "{volume}% 🎵"
   },
   "backlight": {
-    "format": "{percent}%",
+    "format": "{percent}% ☀️",
   },
   "niri/workspaces": {
     "format": "{index}"
   },
   "clock": {
-    "format": "{:%I:%M %p}",
+    "format": "{:%I:%M %p} 🌸",
     "interval": 1,
     "tooltip-format": "{:%A %d %B %Y}"
   },
@@ -28,8 +28,8 @@
     "spacing": 12
   },
   "battery": {
-    "format": "{capacity}%",
-    "format-charging": "{capacity}% ",
+    "format": "{capacity}% 🔋",
+    "format-charging": "{capacity}% 🔌",
     "interval": 1,
     "on-click": "/home/keke/.config/wofi/power.sh"
   }
