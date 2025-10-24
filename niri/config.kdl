@@ -227,7 +227,7 @@ animations {
 // by setting an empty default-column-width.
 layer-rule {
         match namespace="waybar"
-        match namespace="wofi"
+        match namespace="rofi"
         match at-startup=true
         opacity 0.8
         shadow {
@@ -241,7 +241,7 @@ layer-rule {
 
 window-rule {
         match app-id="waybar"
-        match app-id="wofi"
+        match app-id="rofi"
         opacity 0.7   
 }
 window-rule {
@@ -303,8 +303,7 @@ binds {
 
         // Suggested binds for running programs: terminal, app launcher, screen locker.
         Mod+Return { spawn "foot"; }
-        Mod+D { spawn "wofi" "--show" "drun"; }
-        XF86PowerOff { spawn "foot"; }
+        Mod+D { spawn "rofi" "-show"; }
         // You can also use a shell. Do this if you need pipes, multiple commands, etc.
         // Note: the entire command goes as a single argument in the end.
         // Mod+T { spawn "bash" "-c" "notify-send hello && exec alacritty"; }

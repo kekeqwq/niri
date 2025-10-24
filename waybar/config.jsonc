@@ -34,6 +34,6 @@
     "format": "{capacity}% 🔋",
     "format-charging": "{capacity}% 🔌",
     "interval": 1,
-    "on-click": "/home/keke/.config/wofi/power.sh"
+    "on-click": "/home/keke/.config/rofi/power.sh"
   }
 }
