@@ -263,6 +263,7 @@ window-rule {
 window-rule {
         match app-id=r#"^org\.mozilla\.firefox-nightly$"#
         match app-id=r#"^firefox-nightly$"#
+        match app-id=r#"^google-chrome$"#
 
         default-column-width { proportion 1.0; }
 }
