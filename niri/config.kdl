@@ -306,6 +306,7 @@ binds {
         XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
 
         Mod+Q { close-window; }
+        Mod+SHift+Q { spawn "~/.config/rofi/power.sh"; }
 
         Mod+Left  { focus-column-left; }
         Mod+Down  { focus-window-down; }
